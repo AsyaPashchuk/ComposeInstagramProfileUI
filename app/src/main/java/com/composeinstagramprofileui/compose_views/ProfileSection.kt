@@ -24,6 +24,7 @@ fun ProfileSection(
                 modifier = Modifier
                     .size(100.dp)
                     .weight(3f)
+                    .padding(end = 10.dp)
             )
             Spacer(modifier = Modifier.height(16.dp))
             StatSection(modifier = Modifier.weight(7f))
